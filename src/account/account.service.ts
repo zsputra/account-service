@@ -7,8 +7,6 @@ const getAllAccounts = async (): Promise<IAccount[]> =>
   await accountRepository.geAccountsFromFile(ACCOUNT_CSV_FILE_PATH);
 
 const processEodAccounts = async (): Promise<string> => {
-  console.log("Starting The EOD Process");
-
   const accounts = await getAllAccounts();
   const THREAD_SIZED = 5;
 
@@ -49,8 +47,6 @@ const processEodAccounts = async (): Promise<string> => {
   const csvString = await accountEodExecutor.processWriteResultToCsv(
     transormResultToRawResults
   );
-
-  console.log("Finish The EOD Process");
 
   return csvString;
 };
