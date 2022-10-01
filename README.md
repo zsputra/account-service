@@ -6,7 +6,7 @@ This Service Contain Tasks to perform EOD account from folder <pre><code>Files/B
 1. npm version <code>6.14.8</code> or above
 
 
-* Step to run :
+<h3>Step to run</h3>
 1. Run <pre><code>npm install</code></pre>
 2. Run <pre><code>npm run start</code></pre>
 Then it will start server at localhost:8080.
