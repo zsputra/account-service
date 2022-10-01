@@ -1,9 +1,10 @@
 # account-service
 
-<h2>Pre-Requirements</h2>
+This Service Contain Tasks to perform EOD account from folder <pre><code>Files/Before Eod.csv</code></pre>
+
+<h3>Pre-Requirements</h2>
 1. npm version <code>6.14.8</code> or above
 
-* This Service Contain Tasks to perform EOD account from folder <pre><code>Files/Before Eod.csv</code></pre>
 
 * Step to run :
 1. Run <pre><code>npm install</code></pre>
